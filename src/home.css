@@ -1,0 +1,250 @@
+body {
+  background-image: url("https://www.babsalamhajj.com/images/slider_1.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  min-width: 629px;
+}
+.options {
+  width: 600px;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.box {
+  width: calc(100% - 80px);
+  height: 100px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  border: solid 1px white;
+}
+.times {
+  background: url("https://av.sc.com/sg/content/images/sg-time-deposit-2018.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.quran {
+  background: url("https://i0.wp.com/sadaqah.io/blog/wp-content/uploads/2020/12/Five-Verses-of-the-Quran.jpg?fit=1250%2C703&ssl=1");
+  background-size: cover;
+  background-position: center;
+}
+.hadith {
+  background: url("https://i0.wp.com/first10em.com/wp-content/uploads/2018/12/2018-book-list.jpg?fit=1024%2C576&ssl=1");
+  background-size: cover;
+  background-position: center;
+}
+.realtimes {
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.time {
+  height: 30px;
+  width: calc(100% - 100px);
+  background-color: aliceblue;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.set {
+  color: white;
+  text-align: center;
+}
+.btn {
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 60px;
+  height: 30px;
+}
+.back {
+  width: 120px;
+  height: 30px;
+  background-color: aliceblue;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.settings {
+  height: 30px;
+  width: calc(100% - 100px);
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.message {
+  position: absolute;
+  right: calc(50% - 120px);
+  bottom: 85%;
+  background-color: red;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+}
+
+.hadiths {
+  width: calc(100% - 30px);
+  height: calc(100% - 50px);
+  background-color: rgb(108, 112, 115);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.searchhadiths {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  align-self: baseline;
+}
+.coptions {
+  min-height: 20px;
+  width: 168px;
+  background-color: rgb(164, 164, 164);
+  overflow: hidden;
+
+  border: solid 1px black;
+  color: white;
+}
+.dropdown {
+  width: 180px;
+  max-height: 100px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.displayhadiths {
+  width: calc(100% - 30px);
+  height: 380px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+.dropdown {
+  overflow-y: scroll;
+  scrollbar-width: thin; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer 10+ */
+}
+
+.dropdown::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.dropdown::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+.listh {
+  margin-left: 5px;
+}
+.hadith1 {
+  height: auto;
+  color: black;
+  padding: 10px;
+  width: 95%;
+  border: solid 2px black;
+  margin-top: 5px;
+  background-color: azure;
+  border-radius: 10px;
+}
+.back-h {
+  background-color: black;
+  border-radius: 5px;
+  position: relative;
+  right: 40px;
+  width: 40px;
+  text-align: center;
+}
+.exp {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 350px;
+  overflow-y: scroll;
+  margin-top: 0px;
+}
+.back-h2 {
+  background-color: black;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 5px;
+  width: 80px;
+  text-align: center;
+}
+.q-container {
+  width: calc(100% - 35px);
+  height: calc(100% - 40px);
+  overflow-y: scroll;
+}
+.surah {
+  background-color: azure;
+  margin-top: 3px;
+  border: solid 2px black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.q-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arabic {
+  margin-left: auto;
+  margin-right: 15px;
+  font-size: 25px;
+}
+.q-container::-webkit-scrollbar {
+  width: 0;
+}
+
+.q-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+.ayahs {
+  background-color: white;
+  text-align: right;
+  font-size: 30px;
+  padding-top: 8px;
+}
+.move {
+  margin: 0;
+  border-bottom: solid 2px green;
+  margin-right: 5px;
+}
+.trans {
+  margin-right: 5px;
+  font-size: 12px;
+}
+.push {
+  margin-right: 10px;
+}

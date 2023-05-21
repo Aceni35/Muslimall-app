@@ -45,7 +45,7 @@ const hadith = () => {
             </Link>
           </span>
 
-          <p>Search your category : </p>
+          <p className="dm">Search your category : </p>
           <div className="listh">
             <input
               type="text"

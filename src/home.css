@@ -1,18 +1,27 @@
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
 body {
   background-image: url("https://www.babsalamhajj.com/images/slider_1.jpg");
   background-size: cover;
-  display: flex;
-  justify-content: center;
   align-items: center;
   height: 100vh;
+  display: flex;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  min-width: 629px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 625px;
 }
 .options {
   width: 600px;
+  min-width: 600px;
   height: 500px;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 15px;
@@ -247,4 +256,14 @@ body {
 }
 .push {
   margin-right: 10px;
+}
+.dm {
+  min-width: 161px;
+}
+@media (max-width: 640px) {
+  body {
+    background-image: url("https://i.pinimg.com/originals/36/af/3e/36af3e144c9a200e0befaa9e0e275297.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+  }
 }
